@@ -16,7 +16,7 @@ namespace TestDb
             user_id = Console.ReadLine();
             Console.WriteLine("Enter Password");
             password = Console.ReadLine();
-            Console.WriteLine("Enter Dtabase Name");
+            Console.WriteLine("Enter Database Name");
             database = Console.ReadLine();
             string connectionString = "server=localhost;user id=" + user_id + ";password=" + password + ";database=" + database + ";persistsecurityinfo=True";
             MySqlConnection connection = new MySqlConnection(connectionString);
